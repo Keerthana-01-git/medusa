@@ -86,6 +86,7 @@
   }
 }
 
+
 {
   "scripts": {
     "start": "medusa develop"  
