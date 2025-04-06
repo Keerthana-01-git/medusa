@@ -85,3 +85,10 @@
     "pg": "8.11.3"
   }
 }
+
+{
+  "scripts": {
+    "start": "medusa develop"  // or whatever is necessary to start Medusa
+  }
+}
+
