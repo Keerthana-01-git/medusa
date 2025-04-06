@@ -70,7 +70,8 @@
     "release:next": "chgstangeset publish --no-git-tags --snapshot --tag next",
     "version:next": "changeset version --snapshot next",
     "release": "changeset publish",
-    "version": "changeset version && yarn install --no-immutable"
+    "version": "changeset version && yarn install --no-immutable",
+    "start": "medusa develop"
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",
@@ -86,10 +87,4 @@
   }
 }
 
-
-{
-  "scripts": {
-    "start": "medusa develop"  
-  }
-}
 
